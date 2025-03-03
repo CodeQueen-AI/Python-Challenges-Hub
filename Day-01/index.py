@@ -1,2 +1,2 @@
-print("Hello! Python Learners")
-print("Today is the First Step in our Coding Journey")
+# Write your first Python program that prints this message on the screen
+print("Hello Python Learners! Today is the first step in our coding journey")
