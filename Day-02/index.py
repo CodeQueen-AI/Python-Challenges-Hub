@@ -1,11 +1,10 @@
-#Day-2 Challenge
-user_input = input("Enter a Sentence: ")
-words = user_input.split()
-words_count = len(words)
-print("Number of words in the sentence: ", words_count)
+#Write a Python program that takes a sentence from the user and counts the number of words in it!
+sentence = input("Enter a sentence: ")  
+word_count = len(sentence.split()) 
+print(f"The total number of words is: {word_count}")
 
 #Bonus Challenge
-words = user_input.split()
-reverse_text = words.reverse()
-reverse_text = ' '.join(words)
-print("Reverse of the sentence: ", reverse_text)
+# Write a Python program that takes a sentence as input and reverses the entire sentence.
+sentence = input("Enter a sentence: ")  
+reversed_sentence = ' '.join(sentence.split()[::-1])  
+print("Reversed sentence:", reversed_sentence)
